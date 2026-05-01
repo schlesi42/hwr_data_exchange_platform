@@ -1,0 +1,11 @@
+/* Tailwind CSS einbinden */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Globale Stile */
+@layer base {
+  body {
+    @apply text-gray-900 antialiased;
+  }
+}

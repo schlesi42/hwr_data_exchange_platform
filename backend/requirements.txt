@@ -1,0 +1,24 @@
+# Web Framework
+fastapi==0.111.0
+mangum==0.17.0          # Wraps FastAPI für AWS Lambda
+uvicorn==0.30.1         # Lokaler Dev-Server
+
+# Datenbank
+sqlalchemy==2.0.30
+psycopg2-binary==2.9.9  # PostgreSQL Treiber
+alembic==1.13.1         # Datenbank-Migrationen
+
+# Auth / JWT
+python-jose[cryptography]==3.3.0  # JWT-Verifikation (Cognito)
+httpx==0.27.0           # HTTP-Client (für Cognito JWKS-Abruf)
+
+# AWS SDKs
+boto3==1.34.0           # SES, S3, Cognito Admin-Operationen
+
+# Config / Validation
+pydantic==2.7.1
+pydantic-settings==2.2.1
+python-multipart==0.0.9  # Datei-Uploads
+
+# Hilfsbibliotheken
+python-dateutil==2.9.0
